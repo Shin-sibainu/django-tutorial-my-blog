@@ -7,6 +7,8 @@
   <small>Posted at {{post.data_added}}</small>
 
   <p>{{post.intro}}</p>
+
+  <a href="{% url 'post_detail' post.slug %}">もっと読む</a>
   <hr />
 </div>
 {% endfor %} {% endblock %}
