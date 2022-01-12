@@ -1,0 +1,6 @@
+1.python3 -m venv myenv
+2.pip install django
+3.django-admin startproject microblog
+4.cd myblog
+5.python manage.py startapp blog
+6.templates/blogファルダの作成
